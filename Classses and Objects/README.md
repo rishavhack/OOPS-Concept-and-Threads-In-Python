@@ -11,6 +11,12 @@
 
 >**self** --Self is variable that refers to current class instance. when we create an instance for the class, a separate memory block is allocated on the heap and that memory location is by default stored in 'self'.
 
+>**Construtor** -- A construtor is a special method that is used to initialize the instance variables of a class.
+
+>**Instance Variable** -- Instance Variable are the variables whose separate copy is created in every instance. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will not modify the other two copies.
+
+>**Class variable or Static variable -- Static Variable are the variables whose single copy is available to all instances of the class. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will  modify the other four copies.
+
 class Student(object):
 	def __init__(self):
 		self.name = 'Rishav'
@@ -24,7 +30,7 @@ s1  = Student()
 s1.talk()		
 
 
-## Some points on above Code
+## Some points for above Code
 
 1.First of all, a block of memory is allocated on heap.How much memory allocated is decided from the attributes and methods available in the Student class.
 
