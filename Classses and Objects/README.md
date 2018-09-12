@@ -17,17 +17,18 @@ class Student(object):
 		self.name = 'Rishav'
 		self.age = 25
 		self.marks = 88
-
 	def talk(self):
 		print "Hi I am ",self.name
 		print "My age is ",self.age
 		print "My marks is ",self.marks
-
 s1  = Student()
 s1.talk()		
 ''' 
 
-Some points on above Code
+##Some points on above Code
+
 1.First of all, a block of memory is allocated on heap.How much memory allocated is decided from the attributes and methods available in the Student class.
+
 2.After allcationg the memory block,the special method by the name '__iniy__(self)' is called internally. This method stores the initial data into the variables.Since this method is useful to construct the instance, it is called **Construtor**
+
 3.Finally, the allocated memory location address of the instance is returned intp 's1' variable. To see this memory location in decimal number format, we can use **id()** function as id(s1). 
