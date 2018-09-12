@@ -5,3 +5,10 @@
 
 **2.Object oriented programming**
 >On the other hand languages like C++,Python,Java anf Python use classes and object in their programs and are called Object oriented languages. A class is a module which it self contains data and method(function) to achieve the task. The main task is divied into several sub tasks, and these are represented as classes. Each class can perform several inter-releated tasks for which several methods are written iin a class. This approach is called Object oriented approach. 
+
+## Features of Object oriented Programming System(OOPS)
+* Classes and Object
+* Encapsulation
+* Abstraction
+* Inheritance
+* Polymorphism
