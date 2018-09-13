@@ -15,17 +15,17 @@
 
 >**Instance Variable** -- Instance Variable are the variables whose separate copy is created in every instance. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will not modify the other two copies.
 
->**Class variable or Static variable -- Static Variable are the variables whose single copy is available to all instances of the class. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will  modify the other four copies.
+>**Class variable or Static variable** -- Static Variable are the variables whose single copy is available to all instances of the class. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will  modify the other four copies.
 
-##Type of Methods
+## Type of Methods
 
 * Instance Methods
-  -Accessor Method
-  -Mutator Method
+  - Accessor Method
+  - Mutator Method
 * Class Methods
 * Static Methods
 
-
+```
 class Student(object):
 	def __init__(self):
 		self.name = 'Rishav'
@@ -37,7 +37,7 @@ class Student(object):
 		print "My marks is ",self.marks
 s1  = Student()
 s1.talk()		
-
+```
 
 ## Some points for above Code
 
