@@ -1,4 +1,4 @@
-class Student(object):
+class Student():
 	def __init__(self,n='',m=0):
 		self.name = n
 		self.marks = m

@@ -6,7 +6,7 @@
 
 >It is possible that some object may have similar behavior. Such object belong to same category called a **Class**.For example, not only Rishav,but all other person have various common attributes and actions.So they are all objects of same class,'Person'. Now observe that the 'Person' will not exist physically but only Rishav,Ravi,Sita etc. exist physically. This means, a class is a group name and does not exist physically, but objects exist physically
 
-## Some import points
+## Some important points
 >**__init__()** --We can't declare variable in class,So we have written the variable inside a special method,i.e __init__(). This method is useful to initialize the variable. Hence, the name 'init'.
 
 >**self** --Self is variable that refers to current class instance. when we create an instance for the class, a separate memory block is allocated on the heap and that memory location is by default stored in 'self'.
@@ -16,6 +16,15 @@
 >**Instance Variable** -- Instance Variable are the variables whose separate copy is created in every instance. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will not modify the other two copies.
 
 >**Class variable or Static variable -- Static Variable are the variables whose single copy is available to all instances of the class. For example, if 'x' is an instance variable and if we create 4 instance, there will be 4 copies of 'x' in these 4 instance. When we modify the copy of 'x' in any instance, it will  modify the other four copies.
+
+##Type of Methods
+
+* Instance Methods
+  -Accessor Method
+  -Mutator Method
+* Class Methods
+* Static Methods
+
 
 class Student(object):
 	def __init__(self):
