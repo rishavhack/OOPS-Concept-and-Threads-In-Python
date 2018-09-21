@@ -26,6 +26,7 @@
 * Static Methods
 
 ```
+### Example
 class Student(object):
 	def __init__(self):
 		self.name = 'Rishav'
