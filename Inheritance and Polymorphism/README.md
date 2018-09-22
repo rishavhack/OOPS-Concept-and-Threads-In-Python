@@ -44,7 +44,7 @@ add("Core","Python")
 **Program 3**
 >A Python program toa ccess the base class constructor from sub class
 
-###When the programmer writes a constructor in the sub class, the super class constructor is not available to the sub class. In this case, only the sub class, only the sub class constructor is accessible from the sub class object. That means the sub class constructor is replacing the super class constructor. This is called ***constructor overriding***.Similary in the sub class, if we write a nethod with exactly same name as that of super class method, it will override the super class method.This is class ***method overriding***.Consider Program 4
+### When the programmer writes a constructor in the sub class, the super class constructor is not available to the sub class. In this case, only the sub class, only the sub class constructor is accessible from the sub class object. That means the sub class constructor is replacing the super class constructor. This is called ***constructor overriding***.Similary in the sub class, if we write a nethod with exactly same name as that of super class method, it will override the super class method.This is class ***method overriding***.Consider Program 4
 
 **Program 4**
 >A python program to override super class constructor and method in sub class  
